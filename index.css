@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.main-container{
+    height:50vh;
+    width: 35vw;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 200px;
+    box-shadow: 0 0 4px grey;
+    background-color:rgb(31, 31, 33);
+    color: white;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: rgb(16, 166, 96);
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    height: 42px;
+    width: 102px ;
+}
